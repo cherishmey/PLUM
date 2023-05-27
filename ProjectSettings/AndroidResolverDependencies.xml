@@ -1,0 +1,6 @@
+<dependencies>
+  <packages>
+    <package>com.android.support:support-compat:24+</package>
+  </packages>
+  <files />
+</dependencies>

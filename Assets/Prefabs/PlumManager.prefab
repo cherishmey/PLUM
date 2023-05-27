@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7565745041225969858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7565745041225969860}
+  - component: {fileID: 7565745041225969859}
+  m_Layer: 0
+  m_Name: PlumManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7565745041225969860
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7565745041225969858}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 867.62006, y: 625.1704, z: 90}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7565745041225969859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7565745041225969858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 184b55af4abf2af4e99e9c7b77a9d91d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numPlum: 0
+  isDay1: 1
+  metaData:
+    startDateStr: 
+    filePath: 
+    frequency: 0
+    SecPerPlum: 0
+    PlumPerDay: 0
+    durationDay: 14
+    usedDate: []
+  password: {fileID: 0}
+  day1FileName: 
+  day2FileName: 
+  tempFileName: 
+  day1: []
+  day2: []
+  temp: []
+  TodayDateManager: {fileID: 0}
+  TimerTracker: {fileID: 0}
+  TimerUIPanel: {fileID: 0}
+  ButtonData:
+    filePath: 
+    usedDays: 0
+    firstWeekDateStr: []
+    secondWeekDateStr: []
